@@ -1,0 +1,7 @@
+__pycache__/
+.pytest_cache/
+.venv/
+report.html
+assets/
+*_A3_code.zip
+screenshots/*.png
