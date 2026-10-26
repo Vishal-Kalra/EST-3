@@ -1,8 +1,8 @@
 """
 Shared pytest fixtures for the Assignment 3 system tests.
 
-Site under test: LambdaTest eCommerce Playground
-https://ecommerce-playground.lambdatest.io
+Site under test: OpenCart demo store
+https://opencart.abstracta.us
 
 What lives here:
   * driver            -> a fresh Chrome browser for EVERY scenario (clean cookies, empty cart)
