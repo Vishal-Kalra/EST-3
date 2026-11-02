@@ -64,15 +64,3 @@ pytest tests/test_t002_login.py
 - The wrong-password test only fails a login once. The site locks an account for about an hour after ~5 failed attempts, so don't change it to loop.
 - If a test fails because the site's wording is slightly different, open the failure screenshot in `test-results/`, then update the expected text near the top of that test file.
 
-## Put it on GitHub
-
-```bash
-git init
-git add .
-git commit -m "Assignment 3 tests: registration, login, forgotten password"
-git branch -M main
-git remote add origin https://github.com/<your-username>/a3-system-tests.git
-git push -u origin main
-```
-
-A `.gitignore` is included so the virtual environment and generated files stay out of the repo.
